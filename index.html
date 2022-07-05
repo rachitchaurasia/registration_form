@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/register-form.png">
+</head>
+<body>
+    <div>
+        <center>
+        <h1><u>Registration form</u></h1>
+        <p>Please take your time to fill this form properly</p>
+        </center>
+        <fieldset>
+            <label>Enter your first name
+                <input type="text" placeholder="First name" required>
+            </label>
+            <label>Enter your last name
+                <input type="text" placeholder="Last name" required>
+            </label>
+            <label>Enter your Email
+                <input type="email" placeholder="example@gmail.com" required>
+            </label>
+            <label>Create a password
+                <input type="password" minlength="8" placeholder="Password (min. 8 characters)" required>
+            </label>
+        <fieldset>
+            <label><input class="inline" type="radio"> Personal Account</label>
+            <label><input class="inline" type="radio"> Business Account</label>
+            <label><input class="inline" type="checkbox" required> I have read the Terms and Conditions</label>
+        </fieldset>
+        <fieldset>
+            <label>Upload your picture
+                <input type="file">
+            </label>
+            <label>Enter your Date of Birth
+                <input type="date" required>
+            </label>
+            <label>Choose your city:</label>
+            <select required>
+                <option value="">--Select your city--</option>
+                <option value="delhi">Delhi</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="chennai">Chennai</option>
+                <option value="lucknow">Lucknow</option>
+                <option value="dehradun">Dehradun</option>
+                <option value="bangalore">Bangalore</option>
+            </select>
+            <label>
+            About Yourself
+            <textarea id="feedback" cols="30" rows="10" placeholder="Please tell a little bit about yourself..."></textarea>
+            </label>    
+        </fieldset>
+        <fieldset>
+            <input class="submit" type="submit" value="SUBMIT">
+        </fieldset>
+    </div>
+</body>
+</html>
