@@ -1,34 +1,37 @@
-body{
-    color: black;
-    background-image: url("/img/bg.jpg");
-    background-size: cover;
-    font-family: Tahoma;
-    font-size: 16px;
+body {
+  color: black;
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+  font-family: Tahoma;
+  font-size: 16px;
 }
 
-label{
-    display: block;
-
+label {
+  display: block;
 }
 
-input,textarea,select{
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 5px;
+input,
+textarea,
+select {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
-fieldset{
-    border: none;
-    padding: 2rem;
+fieldset {
+  border: none;
+  padding: 2rem;
 }
-.inline{
-    width: unset;
+.inline {
+  width: unset;
 }
-input,textarea,select{
-    background-color: rgb(215, 109, 198);
+input,
+textarea,
+select {
+  background-color: rgb(215, 109, 198);
 }
-.submit{
-    background-color: black;
-    color: aliceblue;
-    padding: 0.5em;
+.submit {
+  background-color: black;
+  color: aliceblue;
+  padding: 0.5em;
 }
