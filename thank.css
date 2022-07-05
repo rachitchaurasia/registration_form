@@ -1,0 +1,23 @@
+*{
+    padding: 20px;
+    margin: 0;
+}
+body{
+    height: 94vh;
+    background-image: url("/img/bg.jpg");
+    background-size: cover;
+    font-family: Tahoma;
+}
+h2,p{
+    text-align: center;
+    position: relative;
+    top: 40%;
+    margin: 10px;
+}
+
+h2{
+    font-size: 3em;
+}
+P{
+    font-size: 1.5em;
+}
